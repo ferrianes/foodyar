@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.8",
+    "tailwindcss": "^2.0.1"
+  },
+  "name": "foodyar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}

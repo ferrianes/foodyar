@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <title>Document</title>
+</head>
+
+<body style="height: 3000px;">
+    <nav class="bg-white mx-12 md:mx-24 mt-6 md:mt-12 mb-20">
+        <div class="flex flex-row">
+            <div class="flex justify-start items-center">
+                <a href="#"
+                    class="antialiased whitespace-nowrap font-display font-semibold text-purple-dark text-2.5xl">
+                    🍔 Foodyar
+                </a>
+            </div>
+            <div class="flex w-full justify-end items-center lg:hidden">
+                <!-- Mobile menu button-->
+                <button
+                    class="inline-flex items-center justify-center p-2 rounded-md text-purple-dark hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-purple-dark transition-all duration-300"
+                    aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <!-- Icon when menu is closed. -->
+                    <!-- Heroicon name: menu Menu open: "hidden", Menu closed: "block" -->
+                    <svg class="block w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                    <!-- Icon when menu is open. -->
+                    <!-- Heroicon name: x Menu open: "block", Menu closed: "hidden" -->
+                    <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="w-full hidden lg:block">
+                <div class="flex justify-end items-center">
+                    <a href="#" class="antialiased font-display font-semibold mx-5 text-purple-dark text-lg">
+                        Home
+                    </a>
+                    <a href="#" class="antialiased font-display mx-5 text-purple-dark text-lg">
+                        Beverages
+                    </a>
+                    <a href="#" class="antialiased font-display mx-5 text-purple-dark text-lg">
+                        Chef
+                    </a>
+                    <a href="#" class="antialiased font-display mx-5 text-purple-dark text-lg">
+                        Ingredient
+                    </a>
+                    <a href="#" class="antialiased font-display mx-5 text-purple-dark text-lg">
+                        Stories
+                    </a>
+                    <button
+                        class="antialiased font-display font-semibold text-purple-dark text-lg bg-red-200 px-8 py-3 rounded-full">
+                        My Kitchen
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="flex mx-36">
+        <article class="w-2/5 flex flex-col justify-center">
+            <header class="antialiased font-display font-semibold text-purple-dark text-4.8xl leading-normal">
+                Eat What You Cook With Us, Together!
+            </header>
+            <p class="antialiased font-display font-light text-purple-dark text-xl mt-3">When you eat something that cooked by yourself, the happiness is priceless.</p>
+            <button class="antialiased w-max font-display font-semibold text-purple-dark text-lg bg-yellow-400 px-8 py-3 rounded-full mt-10">Decide a Menu</button>
+        </article>
+        <figure class="w-3/5">
+            <img src="assets/img/banner-home.png" alt="banner-home">
+        </figure>
+    </section>
+    <section class="flex flex-col mx-24 mt-24 items-center">
+        <p class="antialiased font-display font-light text-purple-dark text-xl">Watch Now</p>
+        <h4 class="antialiased font-display font-bold text-purple-dark text-4xl mt-3">Special To Try</h4>
+        <nav class="flex mt-9 antialiased font-display text-purple-dark text-xl">
+            <a href="#" class="text-yellow-500 font-medium mx-6 border-b-2 border-yellow-500">Healthy Food</a>
+            <a href="#" class="mx-6">Lunch</a>
+            <a href="#" class="mx-6">Vege Desert</a>
+            <a href="#" class="mx-6">Shake</a>
+        </nav>
+    </section>
+</body>
+
+</html>
