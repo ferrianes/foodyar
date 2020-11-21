@@ -12,7 +12,11 @@ module.exports = {
       fontSize: {
         '2.5xl': ['1.75rem'],
         '4.8xl': ['2.875rem'],
-        'testimonial': ['550px', '600px'],
+        'testimonial': ['550px'],
+      },
+      lineHeight: {
+        'testimonial-md': ['500px'],
+        'testimonial-lg': ['600px'],
       },
       margin: {
         '25': '100px',
@@ -20,11 +24,16 @@ module.exports = {
       },
       padding: {
         '18': '70px',
-      }
+      },
+      screens: {
+        'sm-only': {'raw': 'only screen and (max-width: 640px)'}
+      },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      padding: ['odd', 'even'],
+    },
   },
   plugins: [],
 }
