@@ -2,4 +2,21 @@
 
 @tailwind base;
 @tailwind components;
+
+.active {
+    height  : 40px;   
+    position: relative;
+}
+
+.active:before {
+    content : "";
+    position: absolute;
+    left    : 20%;
+    bottom  : 0;
+    height  : 1px;
+    width   : 60%;  /* or 100px */
+    @apply border-yellow-500; 
+    @apply border-b-2;
+}
+
 @tailwind utilities;
